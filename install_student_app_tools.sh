@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # sudo yum update -y
-sudo systemctl stop firewalld
+sudo systemctl stop firewalld;
 # sudo setsebool httpd_can_network_connect 1
 
 sudo hostnamectl set-hostname app-server
